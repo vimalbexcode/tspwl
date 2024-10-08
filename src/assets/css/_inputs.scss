@@ -1,0 +1,241 @@
+.form-control{
+    border-radius: var(--gap-10);
+    &:hover{
+        box-shadow: none;       
+    }
+    &.transparent{
+        background-color: #303030;
+        border: 1px solid #FFFFFF33;
+        color: $gcx_white;
+        font-size: var(--font-var-16);
+        padding-left: var(--gap-20);
+        padding-right: var(--gap-20);
+        // padding: var(--gap-15) var(--gap-20);
+        min-height: var(--btn-56);
+        &::placeholder{
+            color: #FFFFFF33;
+        }
+        &:hover,
+        &:focus{
+            border-color: $gcx_white;
+        }
+        &.disabled{
+            background-color: #303030;
+            border: 1px solid #FFFFFF33;
+            color: $gcx_white;
+        }
+    }
+}
+// input[type="text"],
+// input[type="password"],
+// input[type="email"],
+// input[type="url"],
+// input[type="date"],
+// input[type="month"],
+// input[type="time"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="week"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="color"],
+// textarea,
+// .form-control{
+//   font-size: 16px;
+//   padding: 7px 10px;
+//   font-family: $rx_font;
+//   background-color: rgba(255, 255, 255, 1);
+//   border: 1px solid rgba(0, 0, 0, 0.1);
+//   border-radius: 4px;
+//   color: $rx_gray;
+//   &:focus{
+//     box-shadow: 0px 0px 4px 0px $rx_blue_light;
+//     border-color: rgba($rx_blue, 1);
+//     color: $rx_blue;
+//   }
+//   &::placeholder{
+//     opacity: 0.7;
+//   }
+//   &.invalid{
+//     border-color: rgba($rx_red, 1);
+//   }
+//   &.valid{
+//     border-color: rgba($rx_green, 1);
+//   }
+//   &.disabled,
+//   &:disabled{
+//     background-color:  rgba($rx_blue_light, .1);
+//     opacity: 1;
+//   }
+//   &.h-40{
+//     height: var(--h-40);
+//     &>*{
+//       height: var(--h-40);
+//     }
+//   }
+// }
+// .input-group{
+//   &.h-40{
+//     height: var(--h-40);
+//     &>*{
+//       height: var(--h-40);
+//     }
+//   }
+// }
+// .form-select{
+//   font-size: 16px;
+//   font-family: $rx_font;
+//   background-color: rgba(255, 255, 255, 1);
+//   border: 1px solid rgba(0, 0, 0, 0.1);
+//   border-radius: 4px;
+//   color: $rx_gray;
+//   &:focus{
+//     box-shadow: 0px 0px 4px 0px $rx_blue_light;
+//     border-color: rgba($rx_blue, 1);
+//     color: $rx_blue;
+//   }
+//   &.disabled,
+//   &:disabled{
+//     background-color:  rgba($rx_blue_light, .1);
+//     opacity: 1;
+//   }
+// }
+// .form-check-input{
+//   &:checked{
+//     background-color: $rx_blue_light;
+//     border-color: $rx_blue_light;
+//   }
+//   &:focus{
+//     box-shadow: 0 0 4px 0.2rem rgba($rx_blue_light, .25);
+//   }
+// }
+// label,
+// .form-label{
+//   font-weight: 500;
+//   color: $rx_gray;
+//   font-size: var(--font-16);
+//   line-height: var(--line-height-16);
+// }
+// .error-msg{
+//   color: $rx_red;
+//   font-size: 14px;
+//   background: rgba($rx_red, 0.16);
+//   border-radius: 5px;
+//   margin-top: 5px;
+//   padding: 6px 11px;
+//   &>*{
+//     color: $rx_red;
+//   }
+//   &-password-validation{
+//     .error-msg{
+//       background-color: transparent;
+//       padding-left:0;
+//       padding-bottom: 0;
+//     }
+//     .list-group{
+//       &-text{
+//         font-weight: 500;
+//         font-size: 12px;
+//         line-height: 20px;
+//       }
+//       &-item{
+//         padding: 2.5px 0;
+//         display: flex;
+//         align-items: center;
+//         border: none;
+//         flex-wrap: inherit;
+//         img{
+//           margin-right: 7.5px;
+//           width: 10px;
+//           height: 10px;
+//           object-fit: contain;
+//         }
+//         &.correct{
+//           .correct-img{
+//             display: block !important;
+//           }
+//           .wrong-img{
+//             display: none !important;
+//           }
+//           .list-group-text{
+//             color: $rx_green;
+//           }
+//         }
+//         &.wrong{
+//           .correct-img{
+//             display: none !important;
+//           }
+//           .wrong-img{
+//             display: block !important;
+//           }
+//           .list-group-text{
+//             color: $rx_black;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .success-msg{
+//   color: $rx_green;
+//   font-size: 14px;
+//   background: rgba($rx_blue_light, 0.16);
+//   border-radius: 5px;
+//   margin-top: 5px;
+//   padding: 6px 11px;
+//   &>*{
+//     color: $rx_green;
+//   }
+// }
+// .input-group{
+//   &-transparent{
+//     .form-control{
+//       border-radius: 4px !important;
+//       padding-right: 50px;
+//     }
+//     .btn{
+//       border-color: transparent;
+//       border-left-color: transparent;
+//       position: absolute;
+//       background-color: transparent;
+//       color: $rx_black_1;
+//       border-radius: 4px!important;
+//       top: 0;
+//       right: 0;
+//       z-index: 6;
+//       height: 100%;
+//       width: fit-content;
+//       font-size: 20px;
+//       &:hover,
+//       &:focus{
+//         background-color: transparent;
+//         border-color: transparent;
+//         color: $rx_black;
+//       }
+//     }
+//   }
+// }
+
+// .ui-menu{
+//   z-index: 999;
+// }
+
+// .bootstrap-select{
+//   background-color: $rx_white;
+//   padding: 0;
+//   width: 100%;
+//   &>.dropdown-toggle{
+//     background-color: $rx_white;
+    
+//   }
+//   .dropdown-toggle:focus, 
+//   &>select.mobile-device:focus+.dropdown-toggle{
+//     outline:  none !important;
+//   }
+//   .bs-actionsbox .btn-group button{
+//     max-width: fit-content;
+//     background-color: $rx_blue_light;
+//     color: $rx_white;
+//   }
+// }
