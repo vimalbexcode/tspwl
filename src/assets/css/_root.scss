@@ -1,0 +1,223 @@
+:root{
+
+	--c-width: 100%;
+	--c-width-calc: calc(100% - var(--c-width));
+	--c-width-devide: calc(var(--c-width-calc) / 2);
+	--c-width-final: calc(100% - var(--c-width-devide));
+	--c-margin-left: calc(100% - var(--c-width-final));
+	
+    --poppins: "Poppins", sans-serif;
+	--primary: #28566E;
+	
+	--purple: #7C93E0;
+    --green: #77D577;
+    
+	--white: #fff;
+    --black: #000;
+    --text: #36454F;
+    --gray_light: #D4D4D4;
+    --gray_light_1: #D2D2D2;
+
+    --gray: #717171;
+    --text_black: #161c2d;
+
+	
+
+    --font_87_76_54_39: 39px;
+    --font_62_38: 38px;
+    --font_55_45_40_30: 30px;
+    --font_45_35_26_22: 22px;	
+    --font_43_38: 38px;
+    --font_40_30_24_20: 20px;
+    --font_35_30_24_20: 20px;
+    --font_35_26_22_16: 16px;
+    
+    --font_37_34: 34px;
+    --font_30_20_14_11: 11px;
+    --font_28_22_20_16: 16px;
+    --font_28_17: 17px;
+    --font_19_16_14_11: 11px;
+    --font_24_22_20_16: 16px;
+    --font_22_18_14_10: 10px;
+    --font_20_18_16: 16px;
+    
+
+    --font_28_24_20_18_btn: 18px;
+    --font_28_23_16_14_btn: 14px;
+    --font_26_22_18_16_btn: 16px;
+    
+    // not in use
+    --font_47_32: 32px;
+    
+    --font_35_20: 20px;
+    --font_32_22: 22px;
+    
+    
+    --font_27_18: 18px;
+    
+    --font_20_16: 16px;
+    --font_19_16: 16px;
+    --font_19_11: 11px;
+
+    
+    --font_19_fixed: 19px;
+	--font_14_fixed: 14px;
+	--font_12_fixed: 12px;
+
+    // fixed gap
+	--size_100: 100px;
+	--size_90: 90px;
+	--size_80: 80px;
+	--size_70: 70px;
+	--size_60: 60px;
+	--size_50: 50px;
+	--size_40: 40px;
+	--size_30: 30px;
+	--size_24: 24px;
+	--size_20: 20px;
+	--size_15: 15px;
+	--size_12: 12px;
+	--size_10: 10px;
+	--size_5: 5px;
+	--size_4: 4px;
+    
+    --size_100_half: 50px;
+    --size_90_half: 45px;
+    --size_80_half: 40px;
+	--size_70_half: 35px;
+	--size_60_half: 30px;
+	--size_50_half: 25px;
+	--size_40_half: 20px;
+	--size_30_half: 15px;
+	--size_24_half: 12px;
+	--size_20_half: 10px;
+	--size_15_half: 7.5px;
+	--size_12_half: 6px;
+	--size_10_half: 5px;
+
+    --size_100_third: 34px;
+    --size_90_third: 20px;
+    --size_80_third: 27px;
+    --size_70_third: 23px;
+	--size_60_third: 20px;
+	--size_50_third: 16px;
+	--size_40_third: 13px;
+	--size_30_third: 10px;
+	--size_24_third: 8px;
+	--size_20_third: 5px;
+	--size_15_third: 5px;
+    
+}
+
+html, body{
+	font-size: var(--font_19_16_14_11);
+	font-weight: 400;
+	color: var(--primary);
+	line-height: 1.5;
+}
+body{
+	overflow-x: hidden;
+	position: relative;
+}
+div,
+p,
+ul li{
+	font-size: var(--font_19_16_14_11);
+	font-weight: 400;
+	color: var(--primary);
+	line-height: 1.5;
+}
+a{
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: none;
+	&:hover{
+		color: var(--text_black);
+		text-decoration: none;
+	}
+}
+.clr__primary{
+    color: var(--primary) !important;
+}
+.clr__green{
+    color: var(--green) !important;
+}
+.clr__white{
+    color: var(--white) !important;
+}
+.clr__black{
+    color: var(--black) !important;
+}
+.clr__text{
+    color: var(--text) !important;
+}
+.footer__shape{
+    display: none;
+}
+
+.gap_y_10{
+    row-gap: 10px !important;
+}
+.gap_y_15{
+    row-gap: 15px !important;
+}
+.gap_y_20{
+    row-gap: 20px !important;
+}
+.gap_y_30{
+    row-gap: 30px !important;
+}
+.gap_x_10{
+    column-gap: 10px !important;
+}
+.gap_x_15{
+    column-gap: 15px !important;
+}
+.gap_x_20{
+    column-gap: 20px !important;
+}
+.gap_x_30{
+    column-gap: 30px !important;
+}
+.gap_10{
+    gap: 10px !important;
+}
+.gap_15{
+    gap: 15px !important;
+}
+.gap_20{
+    gap: 20px !important;
+}
+.gap_30{
+    gap: 30px !important;
+}
+
+
+.fw-100{
+	font-weight: 100 !important;
+}
+.fw-200{
+	font-weight: 200 !important;
+}
+.fw-300{
+	font-weight: 300 !important;
+}
+.fw-400{
+	font-weight: 400 !important;
+}
+.fw-500{
+	font-weight: 500 !important;
+}
+.fw-600{
+	font-weight: 600 !important;
+}
+.fw-700{
+	font-weight: 700 !important;
+}
+.fw-800{
+	font-weight: 800 !important;
+}
+.fw-900{
+	font-weight: 900 !important;
+}

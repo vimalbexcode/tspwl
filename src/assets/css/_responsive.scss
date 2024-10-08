@@ -1,0 +1,437 @@
+@supports ( font-variation-settings: normal ) {
+	body {
+		font-family: var(--poppins);
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+// media query start
+@media only screen and (min-width: 576px) {
+    :root{
+        --c-width: 540px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    :root{
+        --c-width: 720px;
+
+        --font_87_76_54_39: 54px;
+        --font_55_45_40_30: 40px;
+        --font_45_35_26_22: 26px;
+        --font_40_30_24_20: 24px;
+        --font_35_30_24_20: 35px;
+        --font_35_26_22_16: 22px;
+        --font_30_20_14_11: 14px;
+        --font_28_22_20_16: 20px;
+        --font_19_16_14_11: 14px;
+        --font_24_22_20_16: 20px;  
+        --font_22_18_14_10: 14px;
+        --font_20_18_16: 18px;
+        
+        --font_28_24_20_18_btn: 20px;
+        --font_28_23_16_14_btn: 16px;
+        --font_26_22_18_16_btn: 18px;
+
+        --size_100_third: 67px;
+        --size_90_third: 60px;
+        --size_80_third: 53px;
+        --size_70_third: 46px;
+		--size_60_third: 40px;
+		--size_50_third: 32px;
+		--size_40_third: 26px;
+		--size_30_third: 20px;
+		--size_24_third: 16px;
+		--size_20_third: 13px;
+		--size_15_third: 10px;
+    }
+
+    .weightloss__hero{
+        .logo{
+            text-align: left;
+            margin-bottom: var(--size_80_half);            
+        }
+        .logo-img{
+            max-height: 100px;
+        }
+        &__img{
+            max-width: 100%;
+            object-fit: cover;
+            object-position: top right ;
+        }
+        &__col__left{
+            // padding-left: calc(var(--c-margin-left) + 14.250px);
+            padding-top: var(--size_100_half);
+            padding-bottom: var(--size_100_half);
+        }
+        &__col__right{
+            padding-right: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: end;
+        }
+    }
+    .weightloss__treatment{
+        // .card{
+        //     &__col{
+        //         padding-left: 33.333333%;
+        //     }
+        //     &__img{
+        //         position: absolute;
+        //         left: 0;
+        //         top: 50%;
+        //         transform: translateY(-50%);
+        //         max-height: 270px;
+        //     }
+        //     &__text{
+        //         margin-top: 0;
+        //     }
+        //     .btn{
+        //         width: 100px;
+        //         height: 117px;
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: center;
+        //         border-radius: 27px;
+        //     }
+        // }        
+    }
+    .weightloss__choose__treatment{
+        .col__left{
+            padding-bottom: var(--size_80_third);
+        }
+    }
+    // .weightloss__choose{
+    //     &__figure{
+    //         &::before{
+    //             border-top-left-radius: 170px;
+    //         }
+    //     }
+    // }
+    .weightloss__steps{
+        .card{
+            &-figure{
+                width: 106px;
+                height: 106px;
+            }
+            &-img{
+                height: 60px;
+                width: 60px;
+            }
+        }
+    }
+    .weightloss__works{
+        &__group{
+            min-height: 300px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    :root{
+        --c-width: 960px;
+
+        --font_87_76_54_39: 76px;
+        --font_55_45_40_30: 45px;
+        --font_45_35_26_22: 35px;
+        --font_40_30_24_20: 30px;
+        --font_35_30_24_20: 30px;
+        --font_35_26_22_16: 28px;
+        --font_30_20_14_11: 20px;
+        --font_28_22_20_16: 22px;
+        --font_24_22_20_16: 22px;
+        --font_22_18_14_10: 18px;
+        --font_19_16_14_11: 16px;
+
+
+        --font_28_24_20_18_btn: 24px;
+        --font_28_23_16_14_btn: 23px;
+        --font_26_22_18_16_btn: 22px;
+    }
+    // .weightloss__hero{
+    //     &__col__right{
+    //         margin-left: -40px;
+    //     }
+    // }
+    .weightloss__treatment{
+        // .card{
+        //     &__img{
+        //         max-height: 250px;
+        //     }
+        //     .btn{
+        //         width: 110px;
+        //         height: 127px;
+        //     }
+        // }
+        
+    }
+    // .weightloss__choose{
+    //     &__col__top{
+    //         margin-bottom: -70px;
+    //     }
+    //     &__col__text{
+    //         padding-top: var(--size_90_third);
+    //     }
+    //     &__figure{
+    //         &::before{
+    //             left: -20px;
+    //             border-top-left-radius: 190px;
+    //         }
+    //     }
+    // }
+    .weightloss__steps{
+        .card{
+            &-figure{
+                width: 120px;
+                height: 120px;
+            }
+            &-img{
+                height: 70px;
+                width: 70px;
+            }
+        }
+    }
+    .weightloss__works{
+        &__group{
+            min-height: 370px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    :root{
+        --c-width: 1140px;
+
+        --font_87_76_54_39: 87px;
+        --font_62_38: 62px;
+        --font_55_45_40_30: 55px;
+        --font_45_35_26_22: 45px;
+        --font_43_38: 43px;
+        --font_40_30_24_20: 40px;
+        --font_35_30_24_20: 35px;
+        --font_35_26_22_16: 35px;
+        --font_30_20_14_11: 30px;
+        --font_28_22_20_16: 28px;
+        --font_24_22_20_16: 24px;
+        --font_22_18_14_10: 22px;
+        --font_20_18_16: 20px;
+        --font_19_16_14_11: 19px;
+        --font_37_34: 37px;        
+        --font_28_17: 28px;
+
+        --font_28_24_20_18_btn: 28px;
+        --font_28_23_16_14_btn: 28px;
+        --font_26_22_18_16_btn: 26px;
+
+        --size_100_half: 100px;
+        --size_90_half: 90px;
+        --size_80_half: 80px;
+		--size_70_half: 70px;
+		--size_60_half: 60px;
+		--size_50_half: 50px;
+		--size_40_half: 40px;
+		--size_30_half: 30px;
+		--size_24_half: 24px;
+		--size_20_half: 20px;
+		--size_15_half: 15px;
+		--size_12_half: 12px;
+		--size_10_half: 10px;
+
+        --size_100_third: 100px;
+        --size_90_third: 90px;
+        --size_80_third: 80px;
+        --size_70_third: 70px;
+        --size_60_third: 60px;
+        --size_50_third: 50px;
+        --size_40_third: 40px;
+        --size_30_third: 30px;
+        --size_24_third: 24px;
+        --size_20_third: 20px;
+        --size_15_third: 15px;
+    }
+    // .weightloss__hero{
+    //     &__col__right{
+    //         margin-left: -100px;
+    //     }
+    // }
+    .weightloss__treatment{
+        // .card{
+        //     &__img{
+        //         max-height: 320px;
+        //     }
+        //     .btn{
+        //         width: 170px;
+        //         height: 187px;
+        //     }
+        // }        
+    }
+    // .weightloss__choose__treatment{
+    //     &__img{
+    //         max-width: 80%;
+    //     }
+    // }
+    // .weightloss__choose{
+    //     &__col__top{
+    //         margin-bottom: -90px;
+    //     }
+    //     &__figure{
+    //         &::before{
+    //             border-top-left-radius: 200px;
+    //         }
+    //     }
+    // }
+    
+    .weightloss__works{
+        &__group{
+            min-height: 500px;
+        }
+    }
+    .weightloss__ctastart .content-title{
+        padding-right: 50px;
+    }
+    .weightloss__ctastart{
+        .wrapper{
+            min-height: 480px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    :root{
+        --c-width: 1320px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    // .weightloss__choose{
+    //     &__col__top{
+    //         order: 1;    
+    //     }
+    //     &__col__text{
+    //         order: 3; 
+    //     }
+    //     &__col__figure{
+    //         order: 2;
+    //         margin-left: 10%;
+    //         margin-bottom: var(--size_15);
+    //     }
+    //     &__img{
+    //         max-width: 400px;
+    //     }
+    // }
+}
+
+@media only screen and (max-width: 767px) {
+    .weightloss__steps{
+        background-position: 90%;
+        .card{
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+    .weightloss__plan{
+        .card{
+            &-header{
+                padding: 0;
+            }
+            &-body{
+                padding: 20px;
+            }
+            &-angle{
+                width: 12px;
+            }
+            .price{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                &-title{
+                    padding-right: 6px;
+                    line-height: 24px;
+                }
+
+            }
+            .link-cta{
+                .btn{
+                    width: auto;
+                    height: auto;
+                    display: inline-block;
+                    padding: 16px 40px;
+                }
+            }
+        }
+    }
+    .weightloss__works{
+        .gap_y_30{
+            row-gap: 10px !important;
+        }
+        .imagebox{
+            &-icon{
+                width: 50px;
+                height: 70px;
+                object-fit: contain;
+            }
+        }
+    }
+    .weightloss__ctastart{
+        .blk{
+            display: flex;
+            align-items: flex-end;
+            height: 100%;
+        }
+        .wrapper{
+            background: none;
+            background-color: var(--white);
+            // background-image: url('../images/w_loss_cta_mobile.webp');
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            min-height: 320px;
+            padding: 0px;
+        }
+        
+    }
+    .weightloss__partnership{
+        &-img{
+            width: 180px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+    }
+       
+}
+@media only screen and (max-width: 575px) {
+    .weightloss__hero{
+        position: relative;
+        padding-bottom: 100px;
+        &__col__left{
+            width: auto;
+            padding-top: var(--size_30);      
+        }
+        &__col__right{
+            height: 100%;
+            width: 50%;
+            padding-right: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            // padding-top: 100px;
+        }
+        .title{
+            max-width: 60%;
+        }
+        .subtitle{
+            max-width: 45%;
+        }
+    }
+    // .weightloss__choose{
+    //     &__img{
+    //         max-width: 230px;
+    //     }
+    // }
+}
+
+@media only screen and (max-width: 475px) {
+    
+}

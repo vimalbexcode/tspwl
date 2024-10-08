@@ -1,0 +1,212 @@
+import logo from '../../assets/images/logo.svg';
+import banner_bg from '../../assets/images/banner_bg.webp';
+import bottle_tirzepatide from '../../assets/images/bottle_tirzepatide.webp';
+import bottle_semaglutide from '../../assets/images/bottle_semaglutide.webp';
+function HomeBanner(){
+    return (
+        <div className='home-banner'>
+            <div className='weightloss__hero'>
+                <div className='weightloss__hero__col__right d-md-block d-none'>
+                    <img src={banner_bg} alt='pharmacy_banner' className='weightloss__hero__img' fetchPriority='low' />
+                </div>
+                <div className='container-md'>
+                    <div className='row'>
+                        <div className='col-12 d-md-none d-block'>
+                            <a className='logo mobile' href='/'><img src={logo} className='logo-img' alt=''  loading='lazy' /></a>
+                        </div>
+                        <div className='col-xl-10 col-sm-7 align-self-center weightloss__hero__col__left'>
+                            <a className='logo d-md-block d-none' href='/'>
+                                <img src={logo} className='logo-img' alt='' loading='lazy' />
+                            </a>
+                            <h1 className='title mb-2'><span className='fw-700'>Transform Your Health</span> with <br className='d-md-block d-none'/>FDA-Approved Weight Loss Treatments</h1>
+                            <p className='subtitle'>Achieve up to 15% Reduction in Body Weight with Healthvio*</p>                
+                        </div>
+                        <div className='col-sm-5 weightloss__hero__col__right d-md-none'>
+                            <img src={banner_bg} alt='pharmacy_banner' className='weightloss__hero__img' fetchPriority='low' />
+                        </div>
+                    </div>
+                    
+                </div>
+                <div className='weightloss__treatment'>
+                    <div className='container-lg'>                    
+                        <div className='row gap_y_20 justify-content-md-around'>
+                            <div className='col card__col d-none'>
+                                <div className='card h-100 card__tirzepatide'>
+                                    <div className='card-header'>
+                                        <h3 className='card__title text-center'>Tirzepatide</h3>
+                                        <p className='card__text text-md-left'>Online Weight Loss Treatment</p>
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='row align-items-center justify-content-center'>
+                                            <div className='col-md col-12 text-center'>
+                                                <img src={bottle_tirzepatide} className='card__img' alt='bottle_tirzepatide' loading='lazy' />
+                                            </div>
+                                            <div className='col-md col-12 text-center'>
+                                                <h2 className='card__prize text-md-left'>$399/<span className='card__month'>month**</span></h2>
+                                                <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' className='btn btn-primary blue'>Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-footer'>
+                                        <ul className='card__list'>
+                                            <li className='card__list__item'>Includes Provider + Medication</li>
+                                            <li className='card__list__item'>No Hidden Fees – No Insurance Needed</li>
+                                        </ul>
+                                        <p className='card__bottom text-center'>Tirzepatide has been FDA approved since June 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col card__col'>
+                                <div className='card h-100 card__semaglutide'>
+                                    <div className='card-header'>
+                                        <h3 className='card__title text-center'>Semaglutide</h3>
+                                        <p className='card__text text-md-left'>Online Weight Loss Treatment</p>
+                                    </div>
+                                    <div className='card-body'>
+                                        <div className='row align-items-center justify-content-center'>
+                                            <div className='col-md col-12 text-center'>
+                                                <img src={bottle_semaglutide} className='card__img' alt='bottle_semaglutide' loading='lazy' />
+                                            </div>
+                                            <div className='col-md col-12 text-center'>
+                                                <h2 className='card__prize text-md-left'>$249/<span className='card__month'>month**</span></h2>
+                                                <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' className='btn btn-primary white'>Get Started</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='card-footer'>
+                                        <ul className='card__list'>
+                                            <li className='card__list__item'>Includes Provider + Medication</li>
+                                            <li className='card__list__item'>No Hidden Fees – No Insurance Needed</li>
+                                        </ul>
+                                        <p className='card__bottom text-center'>Semaglutide has been FDA approved since June 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default HomeBanner;
+
+
+
+import right_angle from '../../assets/images/right_angle.webp';
+import weightloss_plan_bg from '../../assets/images/weightloss_plan_bg.webp';
+
+function WeightlossPlan(){
+    return(
+        <div className='weightloss__plan' style={{backgroundImage: `url(${weightloss_plan_bg})` }}>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-12'>
+                        <h6 className='subtitle clr__white text-center mb-2 mb-md-0'>Options for Managing Weight with GLP-1</h6>
+                        <h2 className='title clr__white text-center mb-2 mb-md-5'>Pick the Plan <span className='fw-light'>That’s Right For You</span></h2>
+                    </div>
+                </div>
+                <div className='row justify-content-center'>
+                    <div className='col-lg-10 col-md-12 mb-md-5 mb-4'>
+                        <div className='card'>
+                            <div className='card-header'>
+                                <div className='row align-items-center'>
+                                    <div className='col-md'>
+                                        <div className='left-text'>Tirzepatide:</div>
+                                        <div className='left-head bule mb-2 mb-md-3'>Transform Your Weight Loss Journey</div>
+                                        <div className='left-text mb-2 mb-md-3'>Tirzepatide is a groundbreaking injectable medication designed to promote substantial weight loss.</div>
+                                        <ul className='list ps-4'>
+                                            <li className='list-items'>Includes Provider + Medication</li>
+                                            <li className='list-items'>No Hidden Fees – No Insurance Needed</li>
+                                        </ul>
+                                    </div>
+                                    <div className='col-md-auto d-none d-md-block'>
+                                        <div className='price'>
+                                            <div className='price-title text-center'>$399</div>
+                                            <div className='price-sub text-center'>Per Month**</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='card-body'>
+                                <div className='row'>
+                                    <div className='col-md pt-0 pt-md-2'>
+                                        <div className='text clr__white mb-md-0 mb-2'>Tirzepatide Weight Loss Results</div>
+                                        <div className='text clr__white mb-md-0 mb-2'><img src={right_angle} alt='right_angle' className='card-angle me-1 me-md-3' fetchPriority='low' />Users can experience up to 20.9% mean weight loss at 36 weeks, increasing to 25.3% at 88 weeks.</div>
+                                    </div>
+                                    <div className='col-md-auto'>
+                                        <div className='card-cta d-none d-md-block'>
+                                            <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank'  className='btn btn-primary blue'>Get Started</a>
+                                        </div>
+                                    </div>
+                                    <div className='col-12'>
+                                        <div className='text fw-bold clr__white text-center text-md-left'>More Significant Weight Loss Results Compared to Semaglutide<sup>3</sup></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='row d-md-none d-block mt-4'>
+                                <div className='price'>
+                                    <div className='price-title text-center'>$399</div>
+                                    <div className='price-sub text-center'>Per Month**</div>
+                                </div>
+                                <div className='link-cta text-center'>
+                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' className='btn btn-primary blue mt-3'>Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-lg-10 col-md-12'>
+                        <div className='card'>
+                            <div className='card-header'>
+                                <div className='row align-items-center'>
+                                    <div className='col-md'>
+                                        <div className='left-text'>Semaglutide:</div>
+                                        <div className='left-head mb-2 mb-md-3'>Transform Your Weight Loss Journey</div>
+                                        <div className='left-text mb-2 mb-md-3'>Semaglutide is a groundbreaking injectable medication designed to promote substantial weight loss.</div>
+                                        <ul className='list ps-4'>
+                                            <li className='list-items'>Includes Provider + Medication</li>
+                                            <li className='list-items'>No Hidden Fees – No Insurance Needed</li>
+                                        </ul>
+                                    </div>
+                                    <div className='col-md-auto d-none d-md-block'>
+                                        <div className='price'>
+                                            <div className='price-title text-center'>$249</div>
+                                            <div className='price-sub text-center'>Per Month**</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='card-body'>
+                                <div className='row'>
+                                    <div className='col-md pt-0 pt-md-2'>
+                                        <div className='text clr__white mb-md-0 mb-2'>Semaglutide Weight Loss Results</div>
+                                        <div className='text clr__white mb-md-0 mb-2'><img src={right_angle} alt='right_angle' className='card-angle me-1 me-md-3' fetchPriority='low' />Expect an average weight loss of 15.2%, alongside significant reductions in waist circumference.</div>
+                                    </div>
+                                    <div className='col-md-auto'>
+                                        <div className='card-cta d-none d-md-block'>
+                                            <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank'  className='btn btn-primary blue'>Get Started</a>
+                                        </div>
+                                    </div>
+                                    <div className='col-12'>
+                                        <div className='text fw-bold clr__white text-center'>Assisted thousands in losing weight diet and exercise.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='row d-md-none d-block mt-4'>
+                                <div className='price'>
+                                <div className='price-title green text-center'>$249</div>
+                                <div className='price-sub green text-center'>Per Month**</div>
+                                </div>
+                                <div className='link-cta text-center'>
+                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' className='btn btn-primary blue mt-3'>Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   );
+}
+export default WeightlossPlan;
