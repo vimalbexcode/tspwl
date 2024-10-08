@@ -49,7 +49,7 @@ function HomeBanner(){
                                                     
                                                 </div>                                                
                                                 <div className='card-footer'> 
-                                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary white'>Get Started</a>                                                   
+                                                    <a href='https://myhealthvio.com/?ref_code=tampa-specialty-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary white'>Get Started</a>                                                   
                                                     <p className='card__bottom text-center'>Semaglutide has been FDA approved since June 2021</p>
                                                 </div>
                                             </div>

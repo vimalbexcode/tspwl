@@ -10,7 +10,7 @@ function WeightLossJourney(){
                             <div className='col-md pt-0 pt-md-2'></div>
                             <div className='col-md-auto'>
                                 <div className='getstart'> 
-                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' rel='noreferrer' className='btn btn-primary white'>Get Started</a>
+                                    <a href='https://myhealthvio.com/?ref_code=tampa-specialty-pharmacy' target='_blank' rel='noreferrer' className='btn btn-primary white'>Get Started</a>
                                 </div>
                             </div>
                             <div className='col-md-12 justify-content-end d-flex'>
@@ -28,7 +28,7 @@ function WeightLossJourney(){
                             </div>
                             <div className='col-12'>
                                 <div className='mobile__cta'>
-                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' rel='noreferrer' className='btn btn-primary white'>Get Started</a>
+                                    <a href='https://myhealthvio.com/?ref_code=tampa-specialty-pharmacy' target='_blank' rel='noreferrer' className='btn btn-primary white'>Get Started</a>
                                 </div>
                                 <div className='content w-100 description'>
                                     <div className='content-title'><strong>Start Your </strong>Weight Loss Journey Today!</div>
