@@ -41,7 +41,7 @@ function WeightlossPlan(){
                                     </div>
                                     <div className='col-md-auto'>
                                         <div className='card-cta d-none d-md-block'>
-                                            <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary blue'>Get Started</a>
+                                            <a href='https://myhealthvio.com/?ref_code=tampa-specialty-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary blue'>Get Started</a>
                                         </div>
                                     </div>
                                     <div className='col-12'>
@@ -51,11 +51,11 @@ function WeightlossPlan(){
                             </div>
                             <div className='row d-md-none d-block mt-4'>
                                 <div className='price'>
-                                <div className='price-title green text-center'>$249</div>
-                                <div className='price-sub green text-center'>Per Month**</div>
+                                <div className='price-title text-center'>$249</div>
+                                <div className='price-sub text-center'>Per Month**</div>
                                 </div>
                                 <div className='link-cta text-center'>
-                                    <a href='https://myhealthvio.com/?ref_code=pinellas-park-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary blue mt-3'>Get Started</a>
+                                    <a href='https://myhealthvio.com/?ref_code=tampa-specialty-pharmacy' target='_blank' rel="noreferrer" className='btn btn-primary blue mt-3'>Get Started</a>
                                 </div>
                             </div>
                         </div>

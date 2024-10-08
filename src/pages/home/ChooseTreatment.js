@@ -1,4 +1,4 @@
-import choose_treatment from '../../assets/images/choose_treatment.webp';
+import choose_treatment from '../../assets/images/inj.webp';
 
 function ChooseTreatment(){
     return(
